@@ -87,23 +87,23 @@ section {
     padding: 1.5rem 9%;
 }
 
-.header .logo {
+.header__logo {
     font-weight: bolder;
     color: #fff;
     font-size: 2.5rem;
 }
 
-.header .logo span {
+.header__logo span {
     color: var(--main-color);
 }
 
-.header .navbar a {
+.header__navbar a {
     font-size: 1.7rem;
     color: #fff;
     margin-left: 2rem;
 }
 
-.header .navbar a:hover {
+.header__navbar a:hover {
     color: var(--main-color);
 }
 
@@ -115,20 +115,20 @@ section {
 }
 
 /* Home Section */
-.home .content {
+.home__content {
     text-align: center;
     padding-top: 6rem;
     margin: 2rem auto;
     max-width: 70rem;
 }
 
-.home .content h3 {
+.home__content h3 {
     color: #fff;
     font-size: 4.5rem;
     text-transform: uppercase;
 }
 
-.home .content h3 span {
+.home__content h3 span {
     color: var(--main-color);
     text-transform: uppercase;
 }
@@ -147,6 +147,40 @@ section {
 }
 
 /* Service Section */
+.service .box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
+    gap: 1.5rem;
+}
+
+.service .box-container .box {
+    border-radius: .5rem;
+    background: #333;
+    text-align: center;
+    padding-top: 2.5rem;
+}
+
+.service .box-container .box i {
+    height: 6rem;
+    width: 6rem;
+    line-height: 6rem;
+    border-radius: 50%;
+    font-size: 2.5rem;
+    background: var(--main-color);
+    color: #fff;
+}
+
+.service .box-container .box h3 {
+    font-size: 2rem;
+    color: #fff;
+    padding-top: 1rem 0;
+}
+
+.service .box-container .box p {
+    font-size: 1.4rem;
+    color: #eee;
+    line-height: 1.8;
+}
 
 
 
